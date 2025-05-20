@@ -1,3 +1,9 @@
+# 🎬 Movie Management REST API
+
+This project is a Spring Boot REST API application that handles user authentication, password recovery, and secure movie management with admin-only operations.
+
+---
+
 ## 🚀 Main Features
 
 ### 🔐 User Authentication
