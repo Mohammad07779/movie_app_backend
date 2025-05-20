@@ -1,22 +1,29 @@
-This project is a Spring Boot REST API application that handles user authentication, password recovery, and movie management with secure admin operations.
+## 🚀 Main Features
 
-Main Features:
-*User Authentication
-    -User registration with secure password storage
-    -Login with JWT-based authentication
-    -Token refresh mechanism for seamless user sessions
-    
-*Forgot Password Workflow
-    -Sends OTP (one-time password) to user email for verification
-    -Validates OTP to authorize password reset
-    -Allows users to change their password securely
-*Movie Management (Admin only) -Add new movies with poster image upload -View movie details by ID or get all movies -Update movie details and optionally update poster image -Delete movies
+### 🔐 User Authentication
+- User registration with secure password hashing
+- Login using JWT-based authentication
+- Token refresh mechanism for seamless sessions
 
-#Technologies Used:
+### ✉️ Forgot Password Workflow
+- Sends OTP (One-Time Password) to user email
+- Validates OTP before allowing password reset
+- Securely updates user password
 
-   Spring Boot (Java)
-   JWT for authentication
-   Spring Security
-   Email service for OTP handling
-   Swagger/OpenAPI for API documentation
-   Multipart file handling for image uploads
+### 🎞️ Movie Management (Admin Only)
+- Add new movies with poster image upload
+- View movie details by ID or get all movies
+- Update movie details and optionally update the poster
+- Delete movies securely
+
+---
+
+## 🛠️ Technologies Used
+
+- **Spring Boot (Java)**
+- **Spring Security**
+- **JWT (JSON Web Token)** – for authentication
+- **JavaMailSender** – for sending OTP emails
+- **Multipart File Handling** – for image uploads
+- **Swagger / OpenAPI** – for interactive API documentation
+- **MySQL** – as the relational database
